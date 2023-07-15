@@ -1,0 +1,52 @@
+body{
+	    background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position:relative;
+}
+
+.login-page
+{
+	width:360px;
+	padding:10% 0 0;
+	margin:auto;
+}
+
+.form{
+	position:relative;
+	z-index:1;
+	background:rgba(136, 7, 195, 0.8);
+	max-width:360px;
+	margin:0 auto 100px;
+	padding:45px;
+	text-align:center;
+}
+
+.form input
+{
+	font-family:"Roboto" Sans-serif;
+	outline:1;
+	background:#f2f2f2;
+	width:100%;
+	border:0;
+	margin:0 0 50px;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+
+.form button
+{
+	font-family:"Roboto" Sans-serif;
+	text-transform:"uppercase";
+	outline:0;
+	background:#4CAf50;
+	width:50%;
+	border:0;
+	padding:10px;
+	color:#ffffff;
+	font-size:14px;
+	cursor:pointer;
+}	
+
+

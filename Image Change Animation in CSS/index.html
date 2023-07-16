@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Change Animation</title>
+    <!-- Internal Css Style  -->
+    <style>
+        body {
+            /* background: #0F2027; */
+            background: rgba(6, 5, 6, 0.92);
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 1.5;
+            letter-spacing: 0.4rem;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 40px;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        .img_section {
+            width: 80%;
+            height: 450px;
+            margin-top: 25px;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px 4px rgb(241, 229, 229);
+            background-image: url(https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: 100% 100%;
+            animation: sliding 20s infinite linear;
+        }
+
+        @keyframes sliding {
+            0% {
+                background-image: url(https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            25% {
+                background-image: url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            35% {
+                background-image: url(https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            45% {
+                background-image: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            55% {
+                background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            75% {
+                background-image: url(https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            85% {
+                background-image: url(https://images.pexels.com/photos/21787/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+
+            100% {
+                background-image: url(https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Heading Of Webpage  -->
+    <h2>Automatic Image Change Animation in CSS</h2>
+    <div class="img_section">
+    </div>
+
+</body>
+
+</html>
